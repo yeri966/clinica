@@ -6,6 +6,8 @@ module co.edu.uniquindio.clinica {
     requires com.sanctionco.jmail;
     requires org.simplejavamail;
     requires org.simplejavamail.core;
+    requires org.simplejavamail.core;
+    requires org.simplejavamail;
 
 
     opens co.edu.uniquindio.clinica to javafx.fxml;
