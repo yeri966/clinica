@@ -10,7 +10,7 @@ public class EnvioEmail {
 
     public static void enviarNotificacion(String destinatario, String asunto, String mensaje) {
 
-
+//tiene error, se debe arreglar
         Email email = EmailBuilder.startingBlank()
                 .from("SU_EMAIL")
                 .to(destinatario)
