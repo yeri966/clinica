@@ -1,6 +1,5 @@
-package co.edu.uniquindio.clinica.controladores;
+package co.edu.uniquindio.clinica.controlador;
 
-import co.edu.uniquindio.clinica.modelo.Clinica;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -8,7 +7,7 @@ import javafx.scene.layout.StackPane;
 
 import java.awt.event.ActionEvent;
 
-public class PanelControlador {
+public class VentanaPrincipalController {
     @FXML
     private StackPane panelPrincipal;
 
@@ -16,7 +15,7 @@ public class PanelControlador {
     private final Clinica clinica;
 
 
-    public PanelControlador() {
+    public VentanaPrincipalController() {
         this.clinica = new Clinica(); // Se crea una única instancia de la clase Clinica
     }
 

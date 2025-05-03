@@ -11,7 +11,7 @@
 <?import javafx.scene.image.Image?>
 <HBox spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       style="-fx-padding: 30px"
-      fx:controller="co.edu.uniquindio.clinica.controladores.PanelControlador">
+      fx:controller="co.edu.uniquindio.clinica.controlador.VentanaPrincipalController">
 
 
     <VBox minWidth="200.0" alignment="BASELINE_CENTER" spacing="20.0" >

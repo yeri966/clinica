@@ -6,9 +6,17 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="RegistroPaciente"
-            prefHeight="400.0" prefWidth="600.0">
+<?import javafx.scene.text.Font?>
 
-</AnchorPane>
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="co.edu.uniquindio.clinica.controlador.RegistroPacienteControlador"
+      style="-fx-padding: 20px;">
+    <Label text="Registro de Paciente" style="-fx-font-size: 18px;" />
+    <TextField fx:id="txtNombre"        promptText="Nombre"/>
+    <TextField fx:id="txtDocumento"     promptText="Documento"/>
+    <TextField fx:id="txtCorreo"        promptText="Correo"/>
+    <DatePicker fx:id="dpFechaNacimiento" promptText="Fecha de Nacimiento"/>
+    <ComboBox fx:id="cbSuscripcion"/>
+    <Button text="Registrar" onAction="#registrarPaciente"/>
+    <Label fx:id="lblMensaje"/>
+</VBox>

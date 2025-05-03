@@ -6,12 +6,10 @@ module co.edu.uniquindio.clinica {
     requires com.sanctionco.jmail;
     requires org.simplejavamail;
     requires org.simplejavamail.core;
-    requires org.simplejavamail.core;
-    requires org.simplejavamail;
 
 
     opens co.edu.uniquindio.clinica to javafx.fxml;
     exports co.edu.uniquindio.clinica;
-    exports co.edu.uniquindio.clinica.controladores;
-    opens co.edu.uniquindio.clinica.controladores to javafx.fxml;
+    exports co.edu.uniquindio.clinica.controlador;
+    opens co.edu.uniquindio.clinica.controlador to javafx.fxml;
 }
