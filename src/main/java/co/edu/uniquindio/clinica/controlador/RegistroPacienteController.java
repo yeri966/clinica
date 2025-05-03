@@ -27,7 +27,7 @@ public class RegistroPacienteControlador extends ControladorAbstracto {
     @FXML
     public void registrarPaciente() {
         try {
-            Paciente p = Paciente.builder()
+            Paciente p = Paciente.builder()//error
                     .nombre(txtNombre.getText())
                     .documento(txtDocumento.getText())
                     .correo(txtCorreo.getText())
